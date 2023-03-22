@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for i in {2..12}; do
+  cp 1-main.c "${i}-main.c"
+done
