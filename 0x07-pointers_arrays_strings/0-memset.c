@@ -1,12 +1,14 @@
-include "main.h"
+#include "main.h"
 
 /**
- * _memset - function fill the first bytes of the memory area pointed
- * to by @s with the constant byte 
+ * _memset - function fill the first @n bytes of the memory area pointed
+ * to by @s with the constant byte @b
  *
- * cal : bytes of the memory area pointed to by @s
+ * @n: bytes of the memory area pointed to by @s
  *
  * Description: with the constant byte @b
+ *
+ * @b: memory area pointer
  *
  * Return: a pointer to the memory area @s
  */
