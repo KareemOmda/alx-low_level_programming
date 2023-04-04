@@ -5,6 +5,8 @@
  *
  * Description: the initial segment of
  *
+ * @accept: which consist only of bytes
+ *
  * Return: number of bytes
  */
 
