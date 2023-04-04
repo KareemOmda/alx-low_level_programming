@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * @haystack: the longer string to search
  * @needle: the first occurrence of the substring
  *
