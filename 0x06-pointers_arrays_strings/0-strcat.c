@@ -7,7 +7,7 @@
  * Return:char
  */
 
-char *_strcat(char *dest, char *src) 
+char *_strcat(char *dest, char *src);
 {
    char *ptr = dest + strlen(dest);
    while (*src != '\0') 
