@@ -2,21 +2,21 @@
 #include <stdlib.h>
 
 /**
- * pop_listint - delete head node
+ * pop_listint - deletes head node
  * @head: double pointer
  *
- * return: void
+ * return: empty
  */
 int pop_listint(listint_t **head)
 {
-	listint_t *strt;
+	listint_t *start;
 	int n;
 
 	if (head == NULL || *head == NULL)
 		return (0);
-	strt = *head;
+	start = *head;
 	*head = start->next;
-	n = strt->n;
-	free(strt);
+	n = start->n;
+	free(start);
 	return (n);
 }
